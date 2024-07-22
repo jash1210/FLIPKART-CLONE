@@ -1,0 +1,464 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.nav {
+    height: 68px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    background-image: url("flipkart\ logo.svg");
+    height: 40px;
+    width: 160px;
+}
+
+.fa-solid {
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    font-size: 1.2rem;
+}
+
+.serchbar{
+    border: 1px solid black;
+    height: 40px;
+    display: flex;
+    width: 55%;
+    border: none;
+    font-size: 1.5rem;
+   
+}
+
+.serch{
+    width: 100%;
+    border: none;
+    transition-property: all;
+    transition-duration: 0s;
+    font-size: 1.3rem;
+
+}
+
+.serch:hover{
+    border: none;
+    width: 400px;
+}
+
+
+.i {
+    width: 44px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.flipkart{
+    display: flex;
+    height: 42px;
+    width: 126px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    border: none;
+   
+    
+}
+
+.boder{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.boder:active{
+    border: none;
+}
+
+.flipkart i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    font-size: 1.2rem;
+}
+
+.flipkart p{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+@keyframes myoption {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(180deg);
+    }
+}
+
+.opp{
+   border: none;
+   width: 15px;
+   height: 20px;
+   display: flex;
+    position: relative;
+    top: 10px;
+}
+
+.opp:hover{
+    animation: myoption 1s 0s infinite normal;
+}
+
+.cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 28px;
+}
+
+.cart i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.cart p{
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+
+
+.seller{
+    display: flex;
+    width: 194px;
+    height: 23px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.seller i{
+    width: 24px;
+    height: 24px;
+}
+
+.seller p{
+    font-size:large;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.main{
+    background-color: rgb(234, 227, 227);
+    height: 890px;
+    justify-content: space-evenly;
+}
+
+.new-section{
+        height: 160px;
+        width: 1480px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: white;
+       position: relative;
+       top:10px;
+       left: 10px;
+       
+}
+
+.box{
+    width: 90px;
+    height: 93px;
+    
+    
+    align-items: center;
+}
+
+.box-img{
+    height: 64px;
+    width: 64px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.box-img:hover{
+    width: 70px;
+    height: 70px;
+}
+
+.box p{
+    font-weight: 700;
+    position: relative;
+    top: 10px;
+}
+
+.box p:hover{
+    
+    font-size: cover;
+   
+}
+
+.select{
+    background-color: white;
+    border: none;
+   position: relative;
+  
+   font-weight: 700;
+}
+
+.select:hover{
+    animation: myselect 1s 0s infinite normal;
+}
+
+@keyframes myselect {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform:rotate(180deg);
+    }
+}
+
+.hero-section{
+    height: 300px;
+    background-image: url('hero\ 1.webp');
+    background-size: cover;
+    width: 1480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    
+}
+
+.hero-section:hover{
+    height: 320px;
+}
+
+.best{
+    background-color: #ffffff ;
+    width: 98.5%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    position: relative;
+    top: 40px;
+    left: 10px;
+}
+
+.besth5{
+    position: relative;
+    left: 20px;
+}
+
+.electronics{
+    width: 98.5%;
+    height: 320px;
+    display: flex;
+    justify-content: space-evenly ;
+    background-color: #ffffff;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+
+.new-box{
+    height: 280px;
+    width: 220px;
+    border: 1px solid rgb(226, 225, 225);
+    position: relative;
+    top: 27px;
+    
+}
+
+.new-img{
+    height: 200px;
+    width: 210px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+}
+
+.new-img:hover{
+    height: 210px;
+
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 12px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 17px;
+}
+
+.footer1{
+    height: 420px;
+    background-color: black;
+    justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(10, 5, 5);
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid white;
+    border: 1px solid white;
+}
+
+
+.about a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.about{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 80px;
+    
+    height: 200px;
+}
+
+.consumer{
+    border-right: 1px solid white;
+    height: 200px;
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+    width: 300px;
+    font-size: small;
+}
+
+.consumer a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mail{
+    color: gray;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.fa-brands{
+    position: relative;
+    bottom: 10px;
+    display: inline;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.Address{
+    color: #ffffff;
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+    width: 300px;
+    font-size: small;
+}
+
+.Address a{
+    color: aqua;
+    text-decoration: none;
+}
+
+.yourdiv{
+    height: 80px;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.becomeas{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.becomeas a{
+    text-decoration: none;
+    font-size: small;
+    color: white;
+}
+
+.becomeas i{
+    font-size: small;
+    color: white;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img{
+    height: 50px;
+    width: 70px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
